@@ -1,4 +1,4 @@
-[comment]: <> (# Reflecting Reality: Enabling Diffusion Models to Produce)
+[comment]: <> (# Reflecting Reality: Enabling Diffusion Models to Produce Faithful Mirror Reflections)
 
 <!-- PROJECT LOGO -->
 
@@ -14,7 +14,7 @@
 [comment]: <> (  <h2 align="center">PAPER</h2>)
   <h3 align="center">
     <!-- <a href="">Paper</a> |  -->
-    <a href="">Project Page</a></h3>
+    <a href="https://reflecting-reality.github.io/">Project Page</a></h3>
   <div align="center"></div>
 
 <p align="center">
