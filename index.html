@@ -10,13 +10,13 @@
     <meta content="en_EN" property="og:locale">
     <meta content="website" property="og:type">
     <meta content="https://reflecting-reality.github.io/" property="og:url">
-    <meta content="Clarity" property="og:title">
+    <meta content="Reflecting Reality" property="og:title">
     <meta content="Reflecting Reality: Enabling Diffusion Models to Produce Faithful Mirror Reflections" property="og:description">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@your_twitter_id">
     <meta name="twitter:description" content="Reflecting Reality: Enabling Diffusion Models to Produce Faithful Mirror Reflections">
-    <meta name="twitter:image:src" content="assets/figures/clarity.png">
+    <meta name="twitter:image:src" content="assets/figures/ours-recliner.png">
 
     <link rel="stylesheet" type="text/css" media="all" href="assets/stylesheets/main_free.css" />
     <link rel="stylesheet" type="text/css" media="all" href="clarity/clarity.css" />
@@ -384,7 +384,9 @@
             We propose <b>MirrorFusion</b>, a novel depth-conditioned inpainting method that generates high-quality mirror reflections
             given an input image and a mask depicting the mirror region. The architecture of <b>MirrorFusion</b> is built upon <a href="https://arxiv.org/abs/2403.06976">BrushNet</a>
             by incorporating a channel for depth, which is necessary for incorporating the geometric information of the object and 
-            its placement in the scene along with the mirror.
+            its placement in the scene along with the mirror. <b>MirrorFusion</b> is fine-tuned on <b>SynMirror</b> from the Stable-Diffusion-v1.5 checkpoint. 
+            During inference, we provide the masked input image and a binary mask depicting the mirror region.
+            The depth map can be estimated from the input image using any monocular depth estimation methods such as <a href="https://arxiv.org/abs/2312.02145">Marigold</a> or <a href="https://arxiv.org/abs/2406.09414">Depth-Anything-V2</a>.
         </p>
     </div>
 
